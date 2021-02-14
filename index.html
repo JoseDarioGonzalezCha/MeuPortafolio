@@ -3,57 +3,177 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Meu Portafolio (Jose Dario)</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    
 </head>
+    
 	<body>
-			<header>
-                <img src="img/pexels-pixabay-270348.jpg" alt="pexels-pixabay-270348" width="1300" height="450">
-				<div>
-					<nav>
-						<a href="#home">Home</a>
-						<a href="#perfil">Meu Perfil</a>
-						<a href="#projetos">Meus Projetos</a>
-                    </nav>
-				</div>
-			</header>
+        <header class="header">
 
-			<section>
-				<h1>Dv Jose Dario Gonzalez Ch.</h1>
-				<p>Desenvolvedor FullStack front-end (html5, ccs3, JavaScript, Angular 9) Back-end (NodeJS, banco de dados e SQlite)</p>
-			</section>
+            <img src="img/favicon-32x32.png" alt="logo">
+    
+            <ul class="menu">
+                <li><a href="#apre">APRESENTAÇÃO</a></li>
+                <li><a href="#for">FORMAÇÃO</a></li>
+                <li><a href="#exp">EXPERIENCIA</a></li>
+                <li><a href="#pro">PROJETOS</a></li>
+                <li><a href="#contato">FALE COMIGO!</a></li>
+            </ul>
+        </header>
 
-            <section>
-                <article id="home">
-                    <header>
-                        <h3>SOBRE MIM</h3>
-                    </header>
-                    <p>Como Desenvolvedor, adoraria fazer parte de uma empresa onde posso aplicar todos os meus conhecimentos e, ao mesmo tempo, permitir meu crescimento profissional. Graças à minha formação especializada em Front-end e Back-end, acredito que posso agregar valor e continuar me desenvolvendo profissionalmente em uma empresa que corresponde aos meus valores e expectativas. Como uma pessoa organizada e altamente motivada, sou capaz de me adaptar a qualquer circunstância e sempre dar o meu melhor em qualquer projeto, ao mesmo tempo que procuro trabalhar em equipe e promover valores como o companheirismo.</p>
-                </article>
+            <div class="portada">
+            <img class="portada" src="img/pexels-pixabay-270348.jpg" alt="foto portada" width="1919px" height="380px">
+            </div>
 
-                <article id="perfil">
-                    <header>
-                        <h3>Meu Perfil</h3>
-                    </header>
-                    <p>Formado na  <strong>TOTI</strong> <i> (plataforma de ensino que forma refugiados e imigrantes através de um curso preparado para atender as demandas das empresas,)</i> Estou muito bem preparado na área de front-end com amplo e ótimo conhecimento em html5, ccs3, JavaScript e Angular 9; bem como domínio pleno na área de  Back-end (NodeJS, banco de dados e SQlite)
-                    </p>
-                </article>
+        <section id="apre" class="apresentação">
+            
+            <div class="presentaciontres">
+                <img class="fotop" src="img/fotoportada.jpg" alt="foto portada" width="350px" height="350px">
+            </div>
 
-                <article id="projetos">
-                    <header>
-                        <h3>Meus Projetos</h3>
-                    </header>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sunt recusandae consectetur, ea, doloremque ad ipsa odio deleniti maiores, minus reiciendis aperiam eligendi excepturi? Possimus hic dolore quisquam soluta eaque.</p>
-                </article>
-            </section>
+            <div class="presentacionuno">
+                <nav>
+                    <a href="https://github.com/dario-tech-bier" target="_blank" ><img class="logogit" src="img/icongit.png" alt="icono github" width="70px" height="70px"></a>
 
-			<footer>
-				<div>
-                    <ul>
-                        <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                        <li><a href="#" class="icon fa-linkedin"><span class="label">linkedIn</span></a></li>
-                        <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                    <a href="https://pt.stackoverflow.com/users/223261/jdario" target="_blank"><img class="logostack" src="img/iconostackoverflow.png" alt="icono stack overflow" width="70px" height="70px"></a>
+
+                    <a href="https://www.linkedin.com/in/jose-dario-gonzalez-charris-5443b91b5/" target="_blank"><img class="logoface" src="img/iconelikedin.png" alt="icono facebook" width="70px" height="70px"></a>
+                </nav>
+
+            </div>
+
+            <div class="presentaciondos" id="present">
+                <h1>Jose Dario Gonzalez Ch.</h1>
+                <h2 class="title">Full-Stack Developer</h2>
+                <h3>Olá!</h3>
+                    <p class="tituloun">Sou uma pessoa empreendedora, que adora desafios e não desiste facilmente. Muito detalhada e autodidata todos os dias, nunca paro de aprender e tenho um dom especial para as pessoas.</p>
+
+                    <p class="tituloun">Meu principal objetivo é crescer profissionalmente e evoluir como desenvolvedor, por isso procuro oportunidades que me permitam fazê-lo, sempre tentando me alinhar totalmente aos propósitos das empresas.</p>
+            </div>
+        </section>
+
+
+        <section class="formação" id="for">
+            
+                <h2 class="forma">FORMAÇÃO</h2>
+           
+                    <ul class="estudos">
+                        <li>2007 - 2012</li>
+                        <li class="profesão">Advogado</li>
+                        <li>UNIVERSIDAD NOR-ORIENTAL PRIVADA "GRAN MARISCAL DE AYACUCHO".  VENEZUELA</li>
                     </ul>
-				</div>
-			</footer>
+
+                    <ul class="estudosbrasil">
+                        <li>2021</li>
+                        <li class="profesão">Developer Full-Stack</li>
+                        <li>TOTI.  BRASIL</li>
+                    </ul>
+        </section>
+
+       <section class="experiencia" id="exp">
+            
+            <h2 class="expe">EXPERIENCIA</h2>
+                
+                <ul class="semantica">
+                    <li>atual</li>
+                    <li class="seman">html:5</li>
+                    <li>TOTI</li>
+                </ul>
+
+                <ul class="estilo">
+                    <li>atual</li>
+                    <li class="seman">CSS 3</li>
+                    <li>TOTI</li>
+                </ul>
+       </section>
+
+        <section class="projetos" id="pro">
+            
+           <h2 class="proje">PROJETOS</h2>
+
+                <div class="bloco1">
+                    <div class="gitimg">
+                        <img width="240px" height="150px" class="primepro" src="img/repositorhtml.jpg" alt="pexels">
+                    </div>
+                        <h3 class="protitul">HTML5</h3>
+                            <p class="paragrafogit">Construção de semântica em HTML5.</p>
+                    <div class="botoncaixa1">
+                        <a href="https://github.com/dario-tech-bier" target="_blank"><button>REPOSITORIO</button></a>
+                        <a href="https://github.com/dario-tech-bier" target="_blank"><button>VER DEMO</button></a>
+                    </div>
+                </div>
+
+                <div class="bloco2">
+                    <div class="gitimg">
+                        <img class="primepro" src="img/imgcss3bloco.png" alt="img css3" width="240px" height="150px">
+                    </div>
+                        <h3 class="protitul">CSS3</h3>
+                            <p class="paragrafogit">Estilização com CSS3 Flex Box e Grid.</p>
+                    <div class="botoncaixa1">
+                        <a href="https://github.com/dario-tech-bier" target="_blank"><button>REPOSITORIO</button></a>
+                        <a href="https://github.com/dario-tech-bier" target="_blank"><button>VER DEMO</button></a>
+                    </div>
+                </div>
+                
+                <div class="bloco3">
+                    <div class="gitimg">
+                        <img class="primepro" src="img/imgjavascrip.jpg" alt="fotojavascript" width="240px" height="150px">
+                    </div>
+                        <h3 class="protitul">JAVASCRIP</h3>
+                            <p class="paragrafogit">Dando interactividade ao projeto.</p>
+                    <div class="botoncaixa1">
+                        <a href="https://github.com/dario-tech-bier" target="_blank"><button>REPOSITORIO</button></a>
+                        <a href="https://github.com/dario-tech-bier" target="_blank"><button>VER DEMO</button></a>
+                    </div>
+                </div>
+        </section>
+
+        <footer class="fale" id="contato">
+            <h2 class="conta">Contato</h2>
+
+                <div class="dados">
+                    <p class="parrafocontato">Quer entrar em contato comigo?</p>
+                    <p class="parrafocontato">Preencha o formulário ao lado e entrarei em contato o mais rápido possivel.</p>
+                    <p class="parrafocontato">Você também pode me encontar nas seguintes redes sociais:</p>
+                </div>
+
+                <div class="redes">
+                    <div class="iconeredes">
+                        <a href="https://www.facebook.com/josedario.gonzalezcharris" target="_blank"><img class="icoface" src="img/facebookicone.png" alt="icone facebook" width="60px" height="60px"></a>
+                        <a href="https://www.instagram.com/jdariotrader/?hl=pt-br" target="_blank"><img class="icoinsta" src="img/instagramfooter.png" alt="icone instagram" width="60px" height="60px"></a>
+                        <a href="https://twitter.com/josegon21920604" target="_blank"><img class="iconetwe" src="img/iconetwitter.png" alt="icone twitter" width="60px" height="60px"></a> 
+                    </div>
+                </div>
+                
+                <div class="formulario">
+                    <form name="" method=" " action="">
+                        <div class="nom">
+                        <label class="etiqueta" for="nome">NOME</label>
+                        <input id="nome" type="text" name="nome" size="60" placeholder="Digite seu nome completo" required>
+                        </div>
+                        <div class="mail">
+                        <label  class="etiqueta" for="email">E-MAIL</label>
+                        <input id="email" type="email" name="email" size="60" placeholder="nomedeusuario@email.com" required>
+                        </div>
+                        <div class="sen">
+                        <label class="etiqueta" for="senha">ASSUNTO</label>
+                        <input id="senha" type="password" name="senha" size="60" placeholder="números, letras y caracteres especiais" required>
+                        </div>
+                        <div class="mensa">
+                        <label class="etiqueta" for="msg">MENSAGEM</label>
+                        <textarea name="" id="msg" cols="60" rows="10"></textarea>
+                        </div>
+                        <div class="enviar">
+                        <button>ENVIAR</button>
+                        </div>
+                    </form>
+                </div>
+            
+            
+        
+        </footer>
 	</body>
 </html>
